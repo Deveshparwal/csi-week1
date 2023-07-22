@@ -1,0 +1,43 @@
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  background: rgb(46, 38, 196);
+  background: radial-gradient(
+    circle,
+    rgb(74, 68, 189) 0%,
+    rgb(65, 200, 227) 0%,
+    rgb(52, 52, 117) 100%
+  );
+  
+}
+
+.container {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  max-width: 75vh;
+  width: 100%;
+  margin: auto;
+  
+  
+}
+.container > form {
+  width: 70%;
+  border: 1px solid #dfdfdf;
+  padding: 20px;
+  border-radius: 5px;
+  background: #fff;
+  align-items: center;
+}
+.container > form > h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+button {
+  background: #0563b4 !important;
+  border: 1px solid #0563b4 !important;
+}
+p {
+  color: red;
+}
